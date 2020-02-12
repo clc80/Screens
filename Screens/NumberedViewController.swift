@@ -13,7 +13,6 @@ class NumberedViewController: UIViewController {
     //1. Crete a label
     let label = UILabel(frame: CGRect(x: 0, y: 0, width: 160, height: 80))
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -34,5 +33,10 @@ class NumberedViewController: UIViewController {
             label.text = String(number)
         }
         
+    }
+    
+    @IBAction func doneButtonTapped(_ sender: Any) {
+        //4. go back to the red view controller
+        navigationController?.popToRootViewController(animated: true)
     }
 }
