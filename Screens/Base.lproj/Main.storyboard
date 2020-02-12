@@ -82,10 +82,10 @@
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="120.53571428571428"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--Colors-->
         <scene sceneID="8hD-Ex-Sx0">
             <objects>
-                <viewControllerPlaceholder id="eh2-Qs-cXu" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Colors" id="eh2-Qs-cXu" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="Hbn-od-eq1"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uLS-PC-Hz7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
