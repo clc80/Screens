@@ -2,28 +2,27 @@
 //  NumberedViewController.swift
 //  Screens
 //
-//  Created by Claudia Contreras on 2/11/20.
+//  Created by Claudia Maciel on 2/11/20.
 //  Copyright © 2020 thecoderpilot. All rights reserved.
 //
 
 import UIKit
 
 class NumberedViewController: UIViewController {
+    
+    //1. Crete a label
+    let label = UILabel(frame: CGRect(x: 0, y: 0, width: 160, height: 8))
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //2. Now we want to add it to our view with some specific settings
+        view.addSubview(label)
+        label.textColor = .white
+        label.textAlignment = .center
+        label.font = UIFont.boldSystemFont(ofSize: 64)
+        label.center = view.center
 
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

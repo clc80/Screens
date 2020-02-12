@@ -32,33 +32,107 @@
         <!--Green-->
         <scene sceneID="mCh-cG-Al5">
             <objects>
-                <viewController id="bmW-8t-wvf" sceneMemberID="viewController">
+                <viewController id="bmW-8t-wvf" customClass="NumberedViewController" customModule="Screens" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ePE-uY-qay">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="70P-OG-jk8"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Green" id="Li6-Ag-dRs"/>
+                    <navigationItem key="navigationItem" title="Green" id="Li6-Ag-dRs">
+                        <rightBarButtonItems>
+                            <barButtonItem title="Purple" id="Ago-BN-Fyz">
+                                <connections>
+                                    <segue destination="Cmy-vJ-cCr" kind="show" id="Hhm-rR-Kl5"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Blue" id="Sw1-0y-jaI">
+                                <connections>
+                                    <segue destination="amR-QV-d28" kind="show" id="Sa4-yI-9Ib"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XGi-6P-idb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="877" y="-605"/>
+            <point key="canvasLocation" x="768" y="-243"/>
         </scene>
-        <!--View Controller-->
+        <!--Blue-->
+        <scene sceneID="hzs-0I-Lj9">
+            <objects>
+                <viewController id="amR-QV-d28" customClass="NumberedViewController" customModule="Screens" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FiW-3B-RIO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="0iS-8q-iGr"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Blue" id="pIU-Rn-lJR">
+                        <barButtonItem key="rightBarButtonItem" title="Yellow" id="bCc-c3-quD">
+                            <connections>
+                                <segue destination="8FP-A2-bOc" kind="show" id="0mG-nt-DTf"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9WY-cz-6WI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1564" y="-610"/>
+        </scene>
+        <!--Yellow-->
+        <scene sceneID="87q-Az-p7x">
+            <objects>
+                <viewController id="8FP-A2-bOc" customClass="NumberedViewController" customModule="Screens" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dv3-h6-ARB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="N5Y-1e-5Cy"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Yellow" id="kFf-WH-OMH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oq9-RL-FeK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2282" y="-612"/>
+        </scene>
+        <!--Purple-->
         <scene sceneID="IxL-64-cVD">
             <objects>
-                <viewController id="Cmy-vJ-cCr" sceneMemberID="viewController">
+                <viewController id="Cmy-vJ-cCr" customClass="NumberedViewController" customModule="Screens" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0hQ-il-Qxd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Jur-Ov-fhm"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Purple" id="LBE-2l-Wff">
+                        <barButtonItem key="rightBarButtonItem" title="Orange" id="FjY-28-mMP">
+                            <connections>
+                                <segue destination="1zw-WY-UmT" kind="show" id="bng-8S-Bvv"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iwd-ce-cYw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="877" y="81"/>
+            <point key="canvasLocation" x="1564" y="66"/>
+        </scene>
+        <!--Orange-->
+        <scene sceneID="O93-fP-axT">
+            <objects>
+                <viewController id="1zw-WY-UmT" customClass="NumberedViewController" customModule="Screens" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xi4-Ip-0mV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="wmA-hS-ViO"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Orange" id="77X-zz-KUT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EAx-BT-fJk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2296" y="64"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="sCp-Uu-2Ub">
