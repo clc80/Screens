@@ -14,6 +14,8 @@
 		3A78F89D23F39D1900716C5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A78F89C23F39D1900716C5F /* Assets.xcassets */; };
 		3A78F8A023F39D1900716C5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A78F89E23F39D1900716C5F /* LaunchScreen.storyboard */; };
 		3A78F8A823F3A16000716C5F /* Colors.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A78F8A723F3A16000716C5F /* Colors.storyboard */; };
+		3A78F8AA23F3A49E00716C5F /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78F8A923F3A49E00716C5F /* RedViewController.swift */; };
+		3A78F8AC23F3A56700716C5F /* NumberedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78F8AB23F3A56700716C5F /* NumberedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		3A78F89F23F39D1900716C5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A78F8A123F39D1900716C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A78F8A723F3A16000716C5F /* Colors.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Colors.storyboard; sourceTree = "<group>"; };
+		3A78F8A923F3A49E00716C5F /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		3A78F8AB23F3A56700716C5F /* NumberedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				3A78F89C23F39D1900716C5F /* Assets.xcassets */,
 				3A78F89E23F39D1900716C5F /* LaunchScreen.storyboard */,
 				3A78F8A123F39D1900716C5F /* Info.plist */,
+				3A78F8A923F3A49E00716C5F /* RedViewController.swift */,
+				3A78F8AB23F3A56700716C5F /* NumberedViewController.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -142,7 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A78F8AA23F3A49E00716C5F /* RedViewController.swift in Sources */,
 				3A78F89823F39D1500716C5F /* ViewController.swift in Sources */,
+				3A78F8AC23F3A56700716C5F /* NumberedViewController.swift in Sources */,
 				3A78F89423F39D1500716C5F /* AppDelegate.swift in Sources */,
 				3A78F89623F39D1500716C5F /* SceneDelegate.swift in Sources */,
 			);
