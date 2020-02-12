@@ -29,7 +29,7 @@
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="120.53571428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--Grey-->
         <scene sceneID="yHx-aD-BJe">
             <objects>
                 <viewController id="WWt-nK-MvM" sceneMemberID="viewController">
@@ -39,7 +39,7 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="I3i-aq-cjs"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Q2T-xY-vLx"/>
+                    <navigationItem key="navigationItem" title="Grey" id="Q2T-xY-vLx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZMI-rQ-wdm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
