@@ -92,7 +92,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="Yellow" id="kFf-WH-OMH">
                         <rightBarButtonItems>
-                            <barButtonItem title="Red" id="8cu-Af-Fkb"/>
+                            <barButtonItem title="Red" id="8cu-Af-Fkb">
+                                <connections>
+                                    <segue destination="Kbc-Nj-lAk" kind="unwind" unwindAction="unwindToRed:" id="g5V-mk-8Ah"/>
+                                </connections>
+                            </barButtonItem>
                             <barButtonItem title="Done" id="YQ5-hN-J9z">
                                 <connections>
                                     <action selector="doneButtonTapped:" destination="8FP-A2-bOc" id="Zg5-3z-1nh"/>
@@ -102,6 +106,7 @@
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oq9-RL-FeK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="Kbc-Nj-lAk" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2282" y="-612"/>
         </scene>
