@@ -13,6 +13,7 @@
 		3A78F89B23F39D1500716C5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A78F89923F39D1500716C5F /* Main.storyboard */; };
 		3A78F89D23F39D1900716C5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A78F89C23F39D1900716C5F /* Assets.xcassets */; };
 		3A78F8A023F39D1900716C5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A78F89E23F39D1900716C5F /* LaunchScreen.storyboard */; };
+		3A78F8A823F3A16000716C5F /* Colors.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A78F8A723F3A16000716C5F /* Colors.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3A78F89C23F39D1900716C5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A78F89F23F39D1900716C5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A78F8A123F39D1900716C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A78F8A723F3A16000716C5F /* Colors.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Colors.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				3A78F89523F39D1500716C5F /* SceneDelegate.swift */,
 				3A78F89723F39D1500716C5F /* ViewController.swift */,
 				3A78F89923F39D1500716C5F /* Main.storyboard */,
+				3A78F8A723F3A16000716C5F /* Colors.storyboard */,
 				3A78F89C23F39D1900716C5F /* Assets.xcassets */,
 				3A78F89E23F39D1900716C5F /* LaunchScreen.storyboard */,
 				3A78F8A123F39D1900716C5F /* Info.plist */,
@@ -127,6 +130,7 @@
 			files = (
 				3A78F8A023F39D1900716C5F /* LaunchScreen.storyboard in Resources */,
 				3A78F89D23F39D1900716C5F /* Assets.xcassets in Resources */,
+				3A78F8A823F3A16000716C5F /* Colors.storyboard in Resources */,
 				3A78F89B23F39D1500716C5F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
